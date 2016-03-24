@@ -1,0 +1,150 @@
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * 全屏背景图片
+ */
+body {
+	background: none;
+}
+
+.full {
+  background: url(../images/body_bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* LOGO图片定位 */
+.navbar-brand {
+	margin:-1px 0 0 0;
+}
+
+/* 上边距工具 */
+.marginTop10 {
+	height:10px;
+}
+
+.marginTop15 {
+	height:15px;
+}
+
+.marginTop25 {
+	height:25px;
+}
+
+.marginTop50 {
+	height:50px;
+}
+
+.marginTop80 {
+	height:80px;
+}
+
+.marginTop100 {
+	height:100px;
+}
+
+.marginTop125 {
+	height:125px;
+}
+
+.marginTop150 {
+	height:160px;
+}
+
+/* 标题加粗 */
+.titleBold {
+	font-size:16px;
+	font-weight:bold;
+}
+
+/* 标题中链接 */
+.titleA:link,.titleA:visited {
+	color:#fff;
+	text-decoration:none;
+}
+
+.titleA:hover {
+	color:#fff;
+	text-decoration:none;
+}
+
+/* 标题中的"更多"链接 */
+.moreSpan {
+	float:right;
+	font-weight:bold;
+}
+
+/* 媒体对象左侧图片边框 */
+.media-left img {
+	border:1px solid #ccc;
+}
+
+/* 媒体对象标题中的链接 */
+.mediaHeadingA:link,.mediaHeadingA:visited {
+	color:#2a6496;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.mediaHeadingA:hover {
+	text-decoration:none;
+}
+
+/* 媒体对象内容中的链接 */
+.mediaBodyA:link,.mediaBodyA:visited {
+	color:#555;
+	text-decoration:none;
+}
+
+.mediaBodyA:hover {
+	text-decoration:none;
+}
+
+/* 固定于窗口底部的页脚开始 */
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 30px;
+}
+
+.footer p {
+	color:#fff;
+	text-align:center;
+}
+/* 固定于窗口底部的页脚结束 */
+
+/* 注册页"欢迎注册"标题 */
+h2 {
+	color:#fff;
+	font-weight:bold;
+	margin-bottom:30px;
+}
+
+/* 显示表单错误信息列表 */
+.showErrors {
+	padding-left:10px;
+}
+
+/* 表单必填项星号 */
+.required {
+	font-weight:bold;
+	color:#ff0000;
+	font-size:17px;
+	position:relative;
+	top:3px;
+}
+
+
