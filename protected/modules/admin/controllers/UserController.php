@@ -143,13 +143,6 @@ class UserController extends Controller
 				
 				$model->avatar = $thumb->directory.$thumb->defaultName.'.'.$file->extensionName;
 			}
-			else //如未上传头像则设置默认头像
-			{
-				if($model->avatar == '')
-				{
-					$model->avatar = './assets/upfile/avatar/noAvatar.jpg';
-				}
-			}
 			
 			if($model->save())
 			{
